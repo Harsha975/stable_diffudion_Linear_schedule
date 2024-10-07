@@ -1,3 +1,4 @@
 data/
 images/
 py_modules/demo.ipynb
+.gitignore
