@@ -30,8 +30,8 @@ do_cfg = True
 cfg_scale = 8  # Config scale
 
 # Image to Image settings
-image_path = ""
-input_image = Image.open(image_path);
+# image_path = ""
+# input_image = Image.open(image_path);
 
 strength = 0.9  # Strength for image to image generation
 
