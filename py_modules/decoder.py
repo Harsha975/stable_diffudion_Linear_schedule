@@ -65,7 +65,7 @@ class VAE_ResidualBlock(nn.Module):
 
         x= self.groupnorm_2(x)
 
-        x= F.selu(x)
+        x= F.silu(x)
 
         x= self.conv_2(x)
 
