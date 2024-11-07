@@ -18,7 +18,7 @@ print(f"Using device: {DEVICE}")
 
 # Load tokenizer and model
 tokenizer = CLIPTokenizer("/content/Stable_diffusion/vocab.json", merges_file="/content/Stable_diffusion/merges.txt")
-model_file = "/content/Stable_diffusion/v1-5-pruned-emaonly (1).ckpt"
+model_file = "/content/Stable_diffusion/v1-5-pruned-emaonly.ckpt"
 models = model_loader.preload_models_from_standard_weights(model_file, DEVICE)
 
 # Text to Image settings
