@@ -57,12 +57,6 @@ The script allows users to generate images using Stable Diffusion with customiza
 
 3. Provide user inputs:
    - Prompt
-   - Negative prompt (optional)
-   - Classifier-Free Guidance (CFG) option
-   - CFG scale (default: 8)
-   - Sampler name (default: 'ddpm')
-   - Number of inference steps (default: 50)
-   - Random seed (default: 42)
 
 4. Generate the image:
    ```python
@@ -112,9 +106,9 @@ Example output:
 #### Example Input
 ```
 Prompt: A majestic, snow-capped mountain peak piercing through a vibrant sunset sky, with a serene lake reflecting the golden hues, a lone hiker silhouetted against the horizon, minimalist, high-resolution, artistic style
-Negative Prompt: Enter negative prompt (optional, press Enter to skip):
-do_cfg: Enable CFG? (yes/no): 
-CFG Scale: Enter CFG scale (default 8):
+Negative Prompt: ""
+do_cfg: True
+CFG Scale: 8
 Sampler: ddpm
 Inference Steps: 50
 Seed: 42
