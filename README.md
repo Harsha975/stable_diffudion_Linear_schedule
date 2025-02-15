@@ -122,7 +122,7 @@ Seed: 42
 
 #### Example Output
 
-![Generated Image](output.png)
+![Generated Image](https://drive.google.com/file/d/1-AHE60JoscsgF4Pb0iFf_3ZMbljQaIxw/view?usp=sharing)
 
 ## Repository Structure
 
