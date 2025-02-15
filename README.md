@@ -111,9 +111,10 @@ Example output:
 
 #### Example Input
 ```
-Prompt: A futuristic cityscape at sunset
-Negative Prompt: Blurry, low quality
-CFG Scale: 8
+Prompt: A majestic, snow-capped mountain peak piercing through a vibrant sunset sky, with a serene lake reflecting the golden hues, a lone hiker silhouetted against the horizon, minimalist, high-resolution, artistic style
+Negative Prompt: Enter negative prompt (optional, press Enter to skip):
+do_cfg: Enable CFG? (yes/no): 
+CFG Scale: Enter CFG scale (default 8):
 Sampler: ddpm
 Inference Steps: 50
 Seed: 42
@@ -128,17 +129,20 @@ Seed: 42
 ```
 stable_diffudion_Linear_schedule/
 │── py_modules/
+│   ├── attention.py
+│   ├── clip.py
+│   ├── ddpm.py
+│   ├── decoder.py
+│   ├── diffusion.py
+│   ├── encoder.py
+│   ├── model_converter.py
+│   ├── model_loader.py
+│   ├── pipeline.py
 │   ├── run.py          # Main script to run Stable Diffusion
-│   ├── model.py        # Model architecture
-│   ├── utils.py        # Utility functions
+│── __pycache__/        # Cached Python files
 │── README.md           # Project documentation
-│── requirements.txt    # List of dependencies
+│── output.png          # Example generated image
 ```
-
-## Notes
-
-- Ensure you restart the Colab runtime after uninstalling `gdown` before proceeding.
-- The pre-trained weights must be successfully downloaded before running the script.
 
 ## Author
 
