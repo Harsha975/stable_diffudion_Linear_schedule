@@ -22,7 +22,7 @@ model_file = "/content/Stable_diffusion/v1-5-pruned-emaonly.ckpt"
 models = model_loader.preload_models_from_standard_weights(model_file, DEVICE)
 
 # Text to Image settings
-prompt = "A 3D model with Human Characters, highly detailed, ultra sharp, cinematic, 100mm lens, 8k resolution."
+prompt = input("Enter your prompt: ")
 uncond_prompt = ""  # Negative prompt
 do_cfg = True
 cfg_scale = 8  # Config scale
